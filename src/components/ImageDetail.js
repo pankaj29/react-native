@@ -5,7 +5,6 @@ const ImageDetail = (props) => {
     <Image source={props.imageSource} />
   <Text>{props.title}</Text>
   <Text>Image Score - {props.imagescore}</Text>
-
 </View>
 };
 const styles = StyleSheet.create({});
