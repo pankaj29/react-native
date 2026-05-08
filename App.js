@@ -8,6 +8,7 @@ import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
+import ColorAdjust from './src/screens/ColorAdjust';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ const App = () => {
         <Stack.Screen name="Image" component={ImageScreen} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Color" component={ColorScreen} />
+        <Stack.Screen name="ColorAdjust" component={ColorAdjust} />
       </Stack.Navigator>
     </NavigationContainer>
   );
